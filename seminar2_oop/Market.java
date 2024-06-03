@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Market implements MakretBehaviour, QueueBehoviour {
 
-    List<Actor> queue = new ArrayList<>();
+    private List<Actor> queue = new ArrayList<>();
 
     @Override
     public void takeInQueue(Actor actor) {
